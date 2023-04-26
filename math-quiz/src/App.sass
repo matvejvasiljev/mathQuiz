@@ -1,2 +1,72 @@
+*
+    margin: 0
+    padding: 0
+
 body
     background-image: url("../public/BG.png")
+    background-repeat: no-repeat
+    background-size: cover
+
+#game
+    background-color: white
+    border-radius: 15px
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.25)
+    max-width: 750px
+    margin: auto
+    padding: 25px
+    text-align: center
+    margin-top: 50px
+
+    h1
+        color: orange
+        font-size: 50px
+
+    h3
+        color: gray
+        margin-top: 20px
+        margin-bottom: 20px
+
+    h2
+        color: #333
+        width: 50%
+        float: left
+
+    input
+        padding: 0 10px
+        line-height: 40px
+        width: calc(100% - 60px)
+        float: left
+        box-sizing: border-box
+        margin: 20px 0
+        border-radius: 15px 0 0 15px
+        border: 1px solid orange
+        font-size: 24px
+
+    button
+        width: calc(50% - 2px)
+        box-sizing: border-box
+        margin-bottom: 4px
+        line-height: 40px
+        border-radius: 15px
+        border: none
+        background-color: #ffa33b33
+        transition: 0.1s
+        cursor: pointer
+        font-size: 24px
+
+        &:hover
+            background-color: #ffa33b66
+
+        &:nth-child(even)
+            margin-left: 4px
+    
+    #submitButton
+        background-image: url("../public/check-mark.svg")
+        background-size: 60%
+        background-position: center
+        background-repeat: no-repeat 
+        height: 42px
+        width: 60px
+        float: right
+        margin: 20px 0
+        border-radius: 0 15px 15px 0

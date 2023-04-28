@@ -10,6 +10,7 @@ body {
 }
 
 #game {
+  position: relative;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
@@ -64,7 +65,7 @@ body {
 }
 #game #submitButton {
   background-image: url("../public/check-mark.svg");
-  background-size: 60%;
+  background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
   height: 42px;
@@ -72,4 +73,18 @@ body {
   float: right;
   margin: 20px 0;
   border-radius: 0 15px 15px 0;
+}
+#game #restartButton {
+  background-image: url("../public/restart.svg");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 42px;
+  width: 42px;
+  float: right;
+  margin: 20px 0;
+  border-radius: 15px;
 }/*# sourceMappingURL=App.css.map */

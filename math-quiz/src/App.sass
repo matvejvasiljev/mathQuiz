@@ -26,6 +26,7 @@ body
         color: gray
         margin-top: 20px
         margin-bottom: 20px
+        font-size: 24px
 
     h2
         color: #333
@@ -60,28 +61,48 @@ body
 
         &:nth-child(even)
             margin-left: 4px
-    
+            
+    .activeButton
+        background-color: #ffa33b66
+
     #submitButton
         background-image: url("../public/check-mark.svg")
         background-size: 50%
         background-position: center
-        background-repeat: no-repeat 
+        background-repeat: no-repeat
         height: 42px
         width: 60px
         float: right
         margin: 20px 0
         border-radius: 0 15px 15px 0
-    
+
     #restartButton
         background-image: url("../public/restart.svg")
         background-size: 60%
         background-position: center
-        background-repeat: no-repeat 
+        background-repeat: no-repeat
         position: absolute
-        top: 0
-        left: 20px
+        top: 25px
+        left: 25px
         height: 42px
         width: 42px
         float: right
-        margin: 20px 0
         border-radius: 15px
+
+    .difficulties
+        position: absolute
+        top: 25px
+        right: 25px
+        text-align: right
+        button
+            width: 75px
+            display: block
+            margin: 0
+            border-radius: 0 0 10px 10px
+
+            &:first-child
+                border-radius: 10px 10px 0 0
+
+            &:last-child
+                border-radius: 10px
+                margin-top: 4px
